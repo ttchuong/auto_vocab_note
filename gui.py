@@ -118,6 +118,7 @@ class AddNoteDialog(QDialog):
     def __init__(self, parent):
         super().__init__(parent)
         self.setWindowTitle("Add New Note with Audio")
+        self.resize(600, 400)
         self.setup_ui()
 
     def setup_ui(self):
